@@ -22,35 +22,23 @@ void setup()
 
 void loop() 
 {  
-       // if (Serial.available() > 0) 
-        //{
-         //   incomingByte = Serial.read();
-          //  Serial.println(incomingByte);
-            
-          // while(incomingByte == 49)
-           
-          //  {
-                //Serial.println("incoming byte: " + incomingByte);
+        
                 SonarSensor(trigPin1, echoPin1);
                 UltraSensor1 = distance; 
                 SonarSensor(trigPin2, echoPin2);
-                UltraSensor2 = distance; 
-                
-                
+                UltraSensor2 = distance;                          
                 if(UltraSensor1 > UltraSensor2)
+                        
                 {                   
                   Serial.println("1");
-                  //Serial.println(String(UltraSensor1) + ", " + String(UltraSensor2));
                 }
                else if (UltraSensor2 > UltraSensor1)
                 {
                   Serial.println("2");
-                  //Serial.println(String(UltraSensor1) + ", " + String(UltraSensor2));
                 }
                else if(UltraSensor2 == UltraSensor1 && UltraSensor1 == UltraSensor2)
                {
-                 Serial.println("3");
-                 //Serial.println(String(UltraSensor1) + ", " + String(UltraSensor2));
+                 Serial.println("3");                 
                }
                 delay(300);           
    }
