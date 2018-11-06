@@ -1,4 +1,7 @@
 # GoPiGo3RobotCar
+For more information, go to [](https://www.dexterindustries.com/gopigo3)
+
+![](https://user-images.githubusercontent.com/32328856/48061913-2332ad80-e1c9-11e8-929d-c55cc6a1d26d.jpg)
 
 # Introduction 
 A functioning GoPiGo3 robot that can navigate in certain environment on its own and react to changes in brightness. The robot also has two different driving-modes that can be altered via a remote controller.
