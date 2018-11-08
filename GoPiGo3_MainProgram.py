@@ -82,7 +82,6 @@ def readValues():
 
 # Measures the ambient light percentage
 def measureLightPercentage():
-    #light_sensor = LightColorSensor()
     roundLight = light_sensor.get_raw_colors(delay=True)[3] * 100
     return roundLight
 
@@ -288,10 +287,6 @@ def mainProgram():
                         sleep(0.1)
                         
                         while leftDirection > 300:
-                            #if running == False:
-                                #print("nytkyttely mp")
-                                #mainProgram()
-                                #break
                             checkLight()                        
                             servo.rotate_servo(90)
                             sleep(0.2)
@@ -327,14 +322,7 @@ def mainProgram():
                         sleep(0.2)
                         rightDirection = dist.read_range_single()
                         sleep(0.1)
-                        #if running == False:
-                            #mainProgram()
-                            #break
                         while rightDirection > 350:
-                            #if running == False:
-                                #print("nytkyttely mp")
-                                #mainProgram()
-                                #break
                             checkLight()
                             servo.rotate_servo(90)
                             sleep(0.2)
@@ -391,7 +379,6 @@ def mainProgram():
                 
                 if running == False:
                     gpg.stop()
-                    #break
                     print("Running false, ajetaan mp")
                     mainProgram()
 
