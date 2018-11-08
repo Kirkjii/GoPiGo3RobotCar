@@ -24,3 +24,20 @@ After every turn the robot has the ability to straighten itself by aligning with
 
 The robot also has light sensor attached to it. Once the sensor detects a change in brightness that exceeds a certain threshold, execution of the main program stops, and the robot starts to wait for RC input.
 Automatic driving works best on a grid-shaped “play arena”. Example of the play arena below.
+
+![](https://user-images.githubusercontent.com/32328856/48061915-2332ad80-e1c9-11e8-8425-e96517db8725.png)
+
+# Hardware configuration
+**Arduino Uno**
+
+![](https://user-images.githubusercontent.com/32328856/48061918-23cb4400-e1c9-11e8-9b62-d5480382bc35.png)
+
+**RaspBerry Pi3**
+![]()
+
+**GoPiGo3 Board**
+![](https://user-images.githubusercontent.com/32328856/48061911-229a1700-e1c9-11e8-8e11-e712ee7641e2.png)
+
+# Flowchart
+![](https://user-images.githubusercontent.com/32328856/48061916-2332ad80-e1c9-11e8-9046-b6c13d0377a6.png)
+
