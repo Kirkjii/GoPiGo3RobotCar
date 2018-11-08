@@ -33,7 +33,7 @@ Automatic driving works best on a grid-shaped “play arena”. Example of the p
 ![](https://user-images.githubusercontent.com/32328856/48061918-23cb4400-e1c9-11e8-9b62-d5480382bc35.png)
 
 **RaspBerry Pi3**
-![]()
+![](https://www.raspberrypi.org/app/uploads/2017/05/Raspberry-Pi-3-1-1619x1080.jpg)
 
 **GoPiGo3 Board**
 ![](https://user-images.githubusercontent.com/32328856/48061911-229a1700-e1c9-11e8-8e11-e712ee7641e2.png)
