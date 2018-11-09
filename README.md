@@ -1,4 +1,5 @@
 # GoPiGo3RobotCar
+In collaboration with Jussi Hieta
 
 For more information, see https://www.dexterindustries.com/gopigo3
 
